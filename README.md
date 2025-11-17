@@ -1,0 +1,3 @@
+# wellspring
+
+nixos config
