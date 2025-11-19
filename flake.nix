@@ -32,7 +32,7 @@
               useGlobalPkgs = true;
               useUserPackages = true;
               users = {
-                serenity = ./home.nix;
+                serenity = ./home;
               };
             };
           }
