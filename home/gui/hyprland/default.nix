@@ -4,6 +4,7 @@
     ./bind.nix
     ./animations.nix
     ./decoration.nix
+    ./borders.nix
   ];
   wayland.windowManager = {
     hyprland = {
