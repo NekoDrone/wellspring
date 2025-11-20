@@ -1,4 +1,5 @@
 {
+  imports = [ ./monitors.nix ];
   wayland.windowManager = {
     hyprland = {
       enable = true;
