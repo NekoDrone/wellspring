@@ -19,5 +19,7 @@
 
   imports = [
     ./gui
+    ./apps
+    ./packages.nix
   ];
 }

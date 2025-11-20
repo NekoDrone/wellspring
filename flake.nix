@@ -12,6 +12,11 @@
     hyprland = {
       url = "github:hyprwm/Hyprland";
     };
+
+    moonlight = {
+      url = "github:moonlight-mod/moonlight";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -55,7 +60,10 @@
                   serenity = ./home;
                 };
                 extraSpecialArgs = {
-                  inherit colorscheme;
+                  inherit
+                    colorscheme
+                    inputs
+                    ;
                 };
               };
             }

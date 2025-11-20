@@ -380,6 +380,26 @@
         "type": "github"
       }
     },
+    "moonlight": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1761246178,
+        "narHash": "sha256-lQpl6ecQfQ7KzEIytH3k4hLtvq+KkTL+3IR2ZukdZWM=",
+        "owner": "moonlight-mod",
+        "repo": "moonlight",
+        "rev": "0b927a86a447a145f20bb5ee43fac79a724640f2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "moonlight-mod",
+        "repo": "moonlight",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1763283776,
@@ -439,6 +459,7 @@
       "inputs": {
         "home-manager": "home-manager",
         "hyprland": "hyprland",
+        "moonlight": "moonlight",
         "nixpkgs": "nixpkgs_2"
       }
     },
