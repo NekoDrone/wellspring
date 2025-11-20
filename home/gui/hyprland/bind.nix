@@ -11,6 +11,7 @@ in
           "${mod}, Return, exec, ghostty"
           "${mod}, Q, killactive"
 	  "${mod}, Y, fullscreen"
+	  "${mod}, D, exec, discord"
         ]
         ++ (builtins.concatLists (
           builtins.genList (
