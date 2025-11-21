@@ -21,5 +21,6 @@
     ./gui
     ./apps
     ./packages.nix
+    ./fonts
   ];
 }
