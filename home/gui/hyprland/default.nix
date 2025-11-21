@@ -5,7 +5,9 @@
     ./animations.nix
     ./decoration.nix
     ./borders.nix
+    ./autostart.nix
   ];
+
   wayland.windowManager = {
     hyprland = {
       enable = true;
