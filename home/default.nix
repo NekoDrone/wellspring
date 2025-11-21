@@ -11,10 +11,6 @@
     firefox = {
       enable = true;
     };
-
-    ghostty = {
-      enable = true;
-    };
   };
 
   imports = [

@@ -1,5 +1,6 @@
 {
   imports = [
-    ./discord
+    ./discord.nix
+    ./ghostty.nix
   ];
 }
