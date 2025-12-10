@@ -18,11 +18,12 @@
 
       window {
       	background-color: ${colorscheme.mauve};
+	border-radius: 24px;
       }
 
       #input {
       	margin: 5px;
-      	border-radius: 0px;
+      	border-radius: 12px;
       	border: none;
       	background-color: ${colorscheme.base};
       	color: ${colorscheme.text};
@@ -36,6 +37,9 @@
       	margin: 2px;
       	padding: 10px;
       	background-color: ${colorscheme.base};
+	border-radius: 24px;
+	border-color: ${colorscheme.mauve};
+	border-width: 2px;
       }
 
       #scroll {
@@ -54,10 +58,12 @@
       #entry:selected {
       	background-color: ${colorscheme.mauve};
       	color: ${colorscheme.crust};
+	border-radius: 16px;
       }
 
       #text:selected {
       	background: transparent;
+	color: ${colorscheme.crust};
       }
     '';
   };
