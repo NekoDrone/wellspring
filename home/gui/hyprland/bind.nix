@@ -12,6 +12,7 @@ in
           "${mod}, Q, killactive"
           "${mod}, Y, fullscreen"
           "${mod}, D, exec, discord"
+	  "${mod}, SPACE, exec, wofi"
 
           # Window actions
           # Click and drag
