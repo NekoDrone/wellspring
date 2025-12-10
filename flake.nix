@@ -17,6 +17,11 @@
       url = "github:moonlight-mod/moonlight";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    lanzaboote = {
+      url = "github:nix-community/lanzaboote/v0.4.3";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -31,6 +36,7 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
+	  inputs.lanzaboote.nixosModules.lanzaboote
           home-manager.nixosModules.home-manager
           (
             let
