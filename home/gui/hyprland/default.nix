@@ -6,6 +6,7 @@
     ./decoration.nix
     ./borders.nix
     ./autostart.nix
+    ./workspaces.nix
   ];
 
   wayland.windowManager = {
