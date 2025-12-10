@@ -18,5 +18,6 @@
     ./apps
     ./packages.nix
     ./fonts
+    ./terminal
   ];
 }

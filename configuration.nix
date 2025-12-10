@@ -65,6 +65,7 @@
       "wheel"
     ];
     packages = with pkgs; [ ];
+    shell = pkgs.zsh;
   };
 
   # Allow unfree packages
@@ -98,6 +99,9 @@
       package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
       portalPackage =
         inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+    };
+    zsh = {
+      enable = true;
     };
   };
 
