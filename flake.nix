@@ -32,7 +32,7 @@
       ...
     }:
     {
-      nixosConfigurations.athenaeum = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.augur = nixpkgs.lib.nixosSystem {
         specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
