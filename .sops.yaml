@@ -1,0 +1,7 @@
+keys:
+  - &serenity age1x29gjanq5mw0w4g4cpcrhzuhcsdh8mgra4qz87v0eas9ak7yfgfsvqlrfc
+creation_rules:
+  - path_regex: secrets/[^/]+\.yaml$
+    key_groups:
+      - age:
+        - *serenity
