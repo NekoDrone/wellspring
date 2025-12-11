@@ -87,6 +87,7 @@
     git
     sbctl
     xorg.xrandr
+    age
   ];
 
   nix.settings.experimental-features = [

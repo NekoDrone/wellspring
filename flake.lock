@@ -587,7 +587,8 @@
         "hyprland": "hyprland",
         "lanzaboote": "lanzaboote",
         "moonlight": "moonlight",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "sops-nix": "sops-nix"
       }
     },
     "rust-overlay": {
@@ -608,6 +609,26 @@
       "original": {
         "owner": "oxalica",
         "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "sops-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1765231718,
+        "narHash": "sha256-qdBzo6puTgG4G2RHG0PkADg22ZnQo1JmSVFRxrD4QM4=",
+        "owner": "Mic92",
+        "repo": "sops-nix",
+        "rev": "7fd1416aba1865eddcdec5bb11339b7222c2363e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "sops-nix",
         "type": "github"
       }
     },

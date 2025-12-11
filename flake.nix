@@ -22,6 +22,11 @@
       url = "github:nix-community/lanzaboote/v0.4.3";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    sops-nix = {
+      url = "github:Mic92/sops-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -36,7 +41,8 @@
         specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
-	  inputs.lanzaboote.nixosModules.lanzaboote
+          inputs.lanzaboote.nixosModules.lanzaboote
+	  inputs.sops-nix.nixosModules.sops
           home-manager.nixosModules.home-manager
           (
             let
