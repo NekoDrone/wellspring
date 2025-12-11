@@ -2,6 +2,6 @@
   imports = [
     ./hyprland
     ./hyprpanel.nix
-    ./wofi.nix
+    ./vicinae.nix
   ];
 }
