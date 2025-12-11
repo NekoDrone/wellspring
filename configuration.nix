@@ -88,6 +88,7 @@
     sbctl
     xorg.xrandr
     age
+    sops
   ];
 
   nix.settings.experimental-features = [
