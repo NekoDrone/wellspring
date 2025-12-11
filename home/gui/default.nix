@@ -1,7 +1,7 @@
 {
   imports = [
     ./hyprland
-    ./hyprpanel
-    ./wofi
+    ./hyprpanel.nix
+    ./wofi.nix
   ];
 }
