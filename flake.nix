@@ -42,7 +42,7 @@
         modules = [
           ./configuration.nix
           inputs.lanzaboote.nixosModules.lanzaboote
-	  inputs.sops-nix.nixosModules.sops
+          inputs.sops-nix.nixosModules.sops
           home-manager.nixosModules.home-manager
           (
             let
