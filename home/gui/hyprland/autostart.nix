@@ -3,7 +3,7 @@
     hyprland = {
       settings = {
         exec-once = [
-          "hyprpanel"
+	  "vicinae server"
         ];
       };
     };
