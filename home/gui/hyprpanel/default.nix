@@ -9,20 +9,19 @@
       # Configure bar layouts for monitors.
       # See 'https://hyprpanel.com/configuration/panel.html'.
       # Default: null
-      layout = {
-        bar.layouts = {
-          "0" = {
-            left = [
-              "dashboard"
-              "workspaces"
-            ];
-            middle = [ "media" ];
-            right = [
-              "volume"
-              "systray"
-              "notifications"
-            ];
-          };
+      bar.layouts = {
+        "*" = {
+          left = [
+            "dashboard"
+            "workspaces"
+          ];
+          middle = [ "media" ];
+          right = [
+            "volume"
+            "systray"
+            "clock"
+            "notifications"
+          ];
         };
       };
 
@@ -40,7 +39,7 @@
       menus.dashboard.directories.enabled = false;
       menus.dashboard.stats.enable_gpu = true;
 
-      theme.bar.transparent = true;
+      theme.bar.transparent = false;
 
       theme.font = {
         name = "Maple Mono NF";
