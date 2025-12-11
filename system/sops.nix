@@ -1,4 +1,4 @@
-{config, ...}:
+{ config, ... }:
 {
   sops = {
     defaultSopsFile = ../secrets/serenity.yaml;
@@ -6,6 +6,9 @@
     secrets.key-gpg = {
       owner = config.users.users.serenity.name;
       path = "${config.users.users.serenity.home}/.gnupg/private-key.asc";
+    };
+    secrets.key-ssh = {
+      owner = config.users.users.serenity.name;
     };
   };
 }
