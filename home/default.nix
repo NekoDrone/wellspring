@@ -15,6 +15,7 @@
 
   imports = [
     ./gui
+    ./cli
     ./apps
     ./packages.nix
     ./fonts
