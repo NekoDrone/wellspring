@@ -42,7 +42,7 @@
       theme.bar.transparent = false;
 
       theme.font = {
-        name = "Maple Mono NF";
+        name = "Hanken Grotesk Medium";
         size = "16px";
       };
     };
