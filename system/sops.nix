@@ -1,11 +1,12 @@
-{ config, ... }:
+{ config, inputs, ... }:
 {
+  imports = [ inputs.sops-nix.nixosModules.sops ];
+
   sops = {
     defaultSopsFile = ../secrets/serenity.yaml;
     age.keyFile = "/home/serenity/.config/sops/age/keys.txt";
     secrets.key-gpg = {
       owner = config.users.users.serenity.name;
-      path = "${config.users.users.serenity.home}/.gnupg/private-key.asc";
     };
     secrets.key-ssh = {
       owner = config.users.users.serenity.name;

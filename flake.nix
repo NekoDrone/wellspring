@@ -68,15 +68,21 @@
               home-manager = {
                 useGlobalPkgs = true;
                 useUserPackages = true;
+
                 users = {
                   serenity = ./home;
                 };
+
                 extraSpecialArgs = {
                   inherit
                     colorscheme
                     inputs
                     ;
                 };
+
+		sharedModules = [
+		  inputs.sops-nix.homeManagerModules.sops
+		];
               };
             }
           )

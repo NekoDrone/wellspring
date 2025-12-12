@@ -19,5 +19,6 @@
     ./packages.nix
     ./fonts
     ./terminal
+    ./services
   ];
 }

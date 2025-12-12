@@ -70,6 +70,7 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "keys"
     ];
     packages = with pkgs; [ ];
     shell = pkgs.zsh;
