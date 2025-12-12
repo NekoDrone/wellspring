@@ -11,6 +11,7 @@
 
     signing = {
       signByDefault = true;
+      key = "98162476+NekoDrone@users.noreply.github.com";
     };
   };
 }
