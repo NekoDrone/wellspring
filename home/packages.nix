@@ -8,5 +8,8 @@
     pavucontrol
     nwg-look
     signal-desktop
+    cosmic-files
+    vlc
+    kdePackages.gwenview
   ];
 }
