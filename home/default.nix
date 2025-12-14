@@ -22,5 +22,6 @@
     ./terminal
     ./services
     ./cursor.nix
+    ./wallpaper.nix
   ];
 }
