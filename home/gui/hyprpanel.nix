@@ -39,7 +39,7 @@
       menus.dashboard.directories.enabled = false;
       menus.dashboard.stats.enable_gpu = true;
 
-      theme.bar.transparent = false;
+      theme.bar.transparent = true;
 
       theme.font = {
         name = "Hanken Grotesk Medium";
