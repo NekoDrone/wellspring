@@ -21,5 +21,6 @@
     ./fonts
     ./terminal
     ./services
+    ./cursor.nix
   ];
 }

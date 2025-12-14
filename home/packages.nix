@@ -6,5 +6,6 @@
       moonlight = inputs.moonlight.packages.${pkgs.system}.moonlight;
     })
     pavucontrol
+    nwg-look
   ];
 }
