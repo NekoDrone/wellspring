@@ -4,7 +4,7 @@
       settings = {
         decoration = {
           active_opacity = 1;
-          inactive_opacity = 0.75;
+          inactive_opacity = 0.87;
           rounding = 10;
           shadow = {
             enabled = false;
