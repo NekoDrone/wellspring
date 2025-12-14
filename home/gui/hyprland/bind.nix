@@ -7,12 +7,10 @@ in
       settings = {
         "$mod" = mod;
         bind = [
-          "${mod}, F, exec, firefox"
           "${mod}, Return, exec, ghostty"
           "${mod}, Q, killactive"
           "${mod}, Y, fullscreen"
-          "${mod}, D, exec, discord"
-	  "${mod}, SPACE, exec, vicinae toggle"
+          "${mod}, SPACE, exec, vicinae toggle"
 
           # Window actions
           # Click and drag
