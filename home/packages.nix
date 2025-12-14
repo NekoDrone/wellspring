@@ -7,5 +7,6 @@
     })
     pavucontrol
     nwg-look
+    signal-desktop
   ];
 }
