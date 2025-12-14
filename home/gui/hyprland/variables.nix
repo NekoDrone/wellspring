@@ -1,0 +1,10 @@
+{
+  wayland.windowManager = {
+    hyprland = {
+      settings = {
+        "input:accel_profile" = "adaptive";
+	"input:sensitivity" = "-0.043";
+      };
+    };
+  };
+}
