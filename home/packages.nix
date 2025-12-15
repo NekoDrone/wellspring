@@ -13,5 +13,6 @@
     kdePackages.gwenview
     telegram-desktop
     heroic
+    grimblast
   ];
 }

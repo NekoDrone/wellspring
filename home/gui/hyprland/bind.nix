@@ -33,6 +33,9 @@ in
           "${mod}, D, workspace, m+1"
           "${mod} SHIFT, A, movetoworkspace, m-1"
           "${mod} SHIFT, D, movetoworkspace, m+1"
+
+          # App-specific
+          "${mod} SHIFT, S, exec, grimblast copysave area /home/serenity/Pictures/Screenshots/"
         ]
         ++ (builtins.concatLists (
           builtins.genList (
