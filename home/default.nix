@@ -18,6 +18,7 @@
     ./cli
     ./apps
     ./packages.nix
+    ./flatpaks.nix
     ./fonts
     ./terminal
     ./services

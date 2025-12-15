@@ -35,6 +35,11 @@
         home-manager.follows = "home-manager";
       };
     };
+
+    flatpaks = {
+      url = "github:in-a-dil-emma/declarative-flatpak/latest";
+    };
+
   };
 
   outputs =
