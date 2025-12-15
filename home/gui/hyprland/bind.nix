@@ -27,6 +27,12 @@ in
           "${mod}, right, movefocus, r"
           "${mod}, up, movefocus, u"
           "${mod}, down, movefocus, d"
+          "${mod}, bracketleft, resizeactive, -40 0"
+          "${mod}, bracketright, resizeactive, 40 0"
+          "${mod}, A, workspace, m-1"
+          "${mod}, D, workspace, m+1"
+          "${mod} SHIFT, A, movetoworkspace, m-1"
+          "${mod} SHIFT, D, movetoworkspace, m+1"
         ]
         ++ (builtins.concatLists (
           builtins.genList (
