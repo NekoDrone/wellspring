@@ -11,5 +11,7 @@
     cosmic-files
     vlc
     kdePackages.gwenview
+    telegram-desktop
+    heroic
   ];
 }
