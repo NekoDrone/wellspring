@@ -4,5 +4,6 @@
     ./sops.nix
     ./hardware.nix
     ./boot.nix
+    ./programs
   ];
 }
