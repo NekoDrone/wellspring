@@ -12,7 +12,7 @@
     };
 
     packages = [
-      "flathub:app/org.kde.kcalc//stable"
+      "flathub:app/com.discordapp.Discord//stable"
     ];
   };
 }
