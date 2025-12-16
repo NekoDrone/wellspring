@@ -14,5 +14,9 @@
     telegram-desktop
     heroic
     grimblast
+    xivlauncher
+    bitwarden-desktop
+    bitwarden-cli
+    bitwarden-menu
   ];
 }
