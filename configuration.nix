@@ -78,6 +78,7 @@
     xorg.xrandr
     age
     sops
+    libsecret
   ];
 
   nix.settings.experimental-features = [
