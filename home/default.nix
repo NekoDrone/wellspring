@@ -24,5 +24,6 @@
     ./services
     ./cursor.nix
     ./wallpaper.nix
+    ./gtk.nix
   ];
 }
