@@ -3,27 +3,27 @@ let
   wallpapers = [
     {
       url = "https://raw.githubusercontent.com/NekoDrone/wellspring/refs/heads/main/assets/yuri.jpg";
-      sha256 = "sha256-W5xj4EUw+Di44FYMCKEGJrm2AJRyY+isfAcPLRNKEHA=";
+      hash = "sha256-W5xj4EUw+Di44FYMCKEGJrm2AJRyY+isfAcPLRNKEHA=";
       ext = "jpg";
     }
     {
       url = "https://raw.githubusercontent.com/NekoDrone/wellspring/refs/heads/main/assets/wallpaper1.jpg";
-      sha256 = "sha256-m8YyZWM3K67no6qY2alfR5pJwTAHqXzc+bPJKm2XzHY=";
+      hash = "sha256-m8YyZWM3K67no6qY2alfR5pJwTAHqXzc+bPJKm2XzHY=";
       ext = "jpg";
     }
     {
       url = "https://raw.githubusercontent.com/dharmx/walls/main/animated/city.gif";
-      sha256 = "sha256-IWS+cfGQkeJQax0a4RjI3syjA51klYM/cU8lhdLqxQs=";
+      hash = "sha256-IWS+cfGQkeJQax0a4RjI3syjA51klYM/cU8lhdLqxQs=";
       ext = "gif";
     }
     {
       url = "https://raw.githubusercontent.com/dharmx/walls/main/anime/a_cartoon_of_a_woman_with_her_hands_on_her_face.jpg";
-      sha256 = "sha256-atndfi+7nfw2CMj1qfUjgc6wn+WxGYATj0+CiYtEqv0=";
+      hash = "sha256-atndfi+7nfw2CMj1qfUjgc6wn+WxGYATj0+CiYtEqv0=";
       ext = "jpg";
     }
     {
       url = "https://raw.githubusercontent.com/dharmx/walls/main/apocalypse/a_woman_standing_in_front_of_a_window.jpg";
-      sha256 = "sha256-AMJQp2GbtK/0+9U0KXZeuDEGHkQiMeHEV131Gk9zpY8=";
+      hash = "sha256-AMJQp2GbtK/0+9U0KXZeuDEGHkQiMeHEV131Gk9zpY8=";
       ext = "jpg";
     }
   ];
@@ -32,7 +32,7 @@ let
     w:
     pkgs.fetchurl {
       url = w.url;
-      sha256 = w.sha256;
+      hash = w.hash;
     }
   ) wallpapers;
 
