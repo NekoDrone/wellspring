@@ -20,7 +20,6 @@
     ./packages.nix
     ./flatpaks.nix
     ./fonts
-    ./terminal
     ./services
     ./cursor.nix
     ./wallpaper.nix
