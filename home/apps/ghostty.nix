@@ -15,6 +15,8 @@
       keybind = [
         "ctrl+left=esc:b"
         "ctrl+right=esc:f"
+        "ctrl+up=ignore"
+        "ctrl+down=ignore"
       ];
     };
   };
