@@ -26,6 +26,16 @@ let
       hash = "sha256-AMJQp2GbtK/0+9U0KXZeuDEGHkQiMeHEV131Gk9zpY8=";
       ext = "jpg";
     }
+    {
+      url = "https://raw.githubusercontent.com/dharmx/walls/main/animated/kessoku-band-in-the-train-bocchi-the-rock-moewalls-com.mp4";
+      hash = "sha256-zl6JOxFBt0VGmnBQbR1mkbQOYtJOsam9tLmutXl4BEg=";
+      ext = "mp4";
+    }
+    {
+      url = "https://raw.githubusercontent.com/dharmx/walls/main/animated/star-wars-ghibli-style-moewalls-com.mp4";
+      hash = "sha256-NANQZdBHfC+ZTGjGOwZmRGWNgoo5WUZneVhECg0L0N8=";
+      ext = "mp4";
+    }
   ];
 
   fetchedWallpapers = map (
