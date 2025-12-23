@@ -12,6 +12,10 @@
       adjust-cell-height = "25%";
       mouse-scroll-multiplier = "1";
       background-opacity = "0.88";
+      keybind = [
+        "ctrl+left=esc:b"
+        "ctrl+right=esc:f"
+      ];
     };
   };
 
