@@ -38,7 +38,6 @@
 
     flatpaks = {
       url = "github:in-a-dil-emma/declarative-flatpak/latest";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
 
     spicetify-nix = {
