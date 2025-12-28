@@ -11,5 +11,8 @@
     secrets.key-ssh = {
       owner = config.users.users.serenity.name;
     };
+    secrets.key-ssh-tangled = {
+      owner = config.users.users.serenity.name;
+    };
   };
 }

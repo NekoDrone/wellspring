@@ -1,4 +1,4 @@
-{ nixosConfig, ...}:
+{ nixosConfig, ... }:
 let
   inherit (nixosConfig.sops) secrets;
 in
@@ -25,6 +25,12 @@ in
         user = "git";
         hostname = "github.com";
         identityFile = secrets.key-ssh.path;
+      };
+
+      "tangled.org" = {
+        user = "git";
+        hostname = "tangled.org";
+        identityFile = secrets.key-ssh-tangled.path;
       };
     };
   };
