@@ -3,7 +3,7 @@
     hyprland = {
       settings = {
         "input:accel_profile" = "adaptive";
-	"input:sensitivity" = "-0.57";
+	"input:sensitivity" = "-0.32";
       };
     };
   };
