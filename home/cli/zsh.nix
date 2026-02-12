@@ -1,4 +1,4 @@
-{ lib, ... }:
+{ lib, config, ... }:
 {
   programs.zsh = {
     enable = true;
@@ -10,6 +10,8 @@
     autosuggestion = {
       enable = true;
     };
+
+    dotDir = "${config.xdg.configHome}/zsh";
 
     enableCompletion = true;
 
