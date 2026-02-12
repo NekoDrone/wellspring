@@ -2,24 +2,29 @@
   programs.vicinae = {
     enable = true;
     settings = {
-      closeOnFocusLoss = false;
-      faviconService = "twenty";
+      close_on_focus_loss = false;
+      favicon_service = "twenty";
       font = {
-        normal = "Sans Serif";
-        size = 10.5;
+        normal = {
+          family = "Sans Serif";
+          size = 10.5;
+        };
       };
-      keybinding = "default";
-      keybinds = {
-      };
-      popToRootOnClose = true;
-      rootSearch = {
-        searchFiles = false;
+      pop_to_root_on_close = true;
+      root_search = {
+        search_files = false;
       };
       theme = {
-        name = "catppuccin-mocha";
+        light = {
+          name = "catppuccin-latte";
+          icon_theme = "default";
+        };
+        dark = {
+          name = "catppuccin-mocha";
+          icon_theme = "default";
+        };
       };
-      window = {
-        csd = true;
+      launcher_window = {
         opacity = 0.95;
         rounding = 10;
       };
