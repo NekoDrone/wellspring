@@ -18,5 +18,6 @@
     bitwarden-desktop
     bitwarden-cli
     bitwarden-menu
+    inkscape
   ];
 }
