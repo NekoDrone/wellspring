@@ -35,7 +35,7 @@ in
           "${mod} SHIFT, D, movetoworkspace, m+1"
 
           # App-specific
-          "${mod} SHIFT, S, exec, grimblast copysave area /home/serenity/Pictures/Screenshots/"
+          "${mod} SHIFT, S, exec, grimblast copysave area /home/serenity/Pictures/Screenshots/ --wait 0.2"
         ]
         ++ (builtins.concatLists (
           builtins.genList (
