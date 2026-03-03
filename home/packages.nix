@@ -19,5 +19,6 @@
     bitwarden-cli
     bitwarden-menu
     inkscape
+    piper
   ];
 }
