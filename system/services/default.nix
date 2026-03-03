@@ -5,4 +5,8 @@
     ./flatpak.nix
     ./misc.nix
   ];
+
+  services = {
+    ratbagd.enable = true;
+  };
 }
