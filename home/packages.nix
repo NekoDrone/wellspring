@@ -11,6 +11,7 @@
     cosmic-files
     vlc
     kdePackages.gwenview
+    kdePackages.okular
     telegram-desktop
     heroic
     grimblast
@@ -20,5 +21,6 @@
     bitwarden-menu
     inkscape
     piper
+    claude-code
   ];
 }
