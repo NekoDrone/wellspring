@@ -1,9 +1,10 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 {
   programs.steam = {
     enable = true;
     extraCompatPackages = [
       pkgs.proton-ge-bin
+      inputs.dw-proton.packages.${pkgs.stdenv.hostPlatform.system}.dw-proton
     ];
     package =
       with pkgs;
@@ -20,5 +21,7 @@
           pkgsi686Linux.xorg.libXi
         ];
       };
+
+    protontricks.enable = true;
   };
 }

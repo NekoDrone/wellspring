@@ -45,6 +45,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    dw-proton = {
+      url = "github:imaviso/dwproton-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
