@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ inputs, pkgs, ... }:
 let
   mkLockedAttrs = builtins.mapAttrs (
     _: value: {

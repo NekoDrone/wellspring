@@ -1,4 +1,10 @@
-{ inputs, ... }:
+{ inputs, pkgs, ... }:
+let
+  r2modman = pkgs.fetchurl {
+    url = "https://github.com/ebkr/r2modmanPlus/releases/download/v3.2.15/r2modman-3.2.15-x86_64.flatpak";
+    hash = "sha256-Ksc9UCFdI2BOiMZ+9LIYBZQcVmFwxBPPkFs6/yraOfs=";
+  };
+in
 {
   imports = [
     inputs.flatpaks.homeModules.default
@@ -13,6 +19,7 @@
 
     packages = [
       "flathub:app/com.discordapp.Discord//stable"
+      ":${r2modman}"
     ];
   };
 }
