@@ -22,5 +22,7 @@
     inkscape
     piper
     claude-code
+    wine
+    winetricks
   ];
 }
