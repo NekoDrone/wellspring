@@ -53,9 +53,9 @@ let
     }) fetchedWallpapers
   );
 
-  awww-random = pkgs.writeShellScriptBin "swww-random" ''
+  awww-random = pkgs.writeShellScriptBin "awww-random" ''
     wallpaper=$(${pkgs.findutils}/bin/find ${wallpaperDir} -type f -o -type l | ${pkgs.coreutils}/bin/shuf -n 1)
-    ${pkgs.awww}/bin/swww img "$wallpaper" --transition-type fade --transition-duration 2
+    ${pkgs.awww}/bin/awww img "$wallpaper" --transition-type fade --transition-duration 2
   '';
 in
 {
@@ -82,7 +82,7 @@ in
         PartOf = [ "graphical-session.target" ];
       };
       Service = {
-        ExecStart = "${awww-random}/bin/swww-random";
+        ExecStart = "${awww-random}/bin/awww-random";
         Type = "oneshot";
       };
     };
