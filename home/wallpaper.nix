@@ -53,9 +53,9 @@ let
     }) fetchedWallpapers
   );
 
-  swww-random = pkgs.writeShellScriptBin "swww-random" ''
+  awww-random = pkgs.writeShellScriptBin "swww-random" ''
     wallpaper=$(${pkgs.findutils}/bin/find ${wallpaperDir} -type f -o -type l | ${pkgs.coreutils}/bin/shuf -n 1)
-    ${pkgs.swww}/bin/swww img "$wallpaper" --transition-type fade --transition-duration 2
+    ${pkgs.awww}/bin/swww img "$wallpaper" --transition-type fade --transition-duration 2
   '';
 in
 {
@@ -63,31 +63,31 @@ in
     enable = true;
   };
 
-  home.packages = [ swww-random ];
+  home.packages = [ awww-random ];
 
   wayland.windowManager.hyprland = {
     enable = true;
     settings = {
       exec-once = [
-        "swww-daemon"
-        "swww-random"
+        "awww-daemon"
+        "awww-random"
       ];
     };
   };
 
   systemd.user = {
-    services.swww-randomize = {
+    services.awww-randomize = {
       Unit = {
         Description = "Random wallpaper rotation with SWWW";
         PartOf = [ "graphical-session.target" ];
       };
       Service = {
-        ExecStart = "${swww-random}/bin/swww-random";
+        ExecStart = "${awww-random}/bin/swww-random";
         Type = "oneshot";
       };
     };
 
-    timers.swww-randomize = {
+    timers.awww-randomize = {
       Unit = {
         Description = "Random wallpaper rotation timer";
         PartOf = [ "graphical-session.target" ];
