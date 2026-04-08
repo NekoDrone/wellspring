@@ -5,4 +5,10 @@
     ./browser.nix
     ./lutris.nix
   ];
+
+  programs = {
+    obsidian = {
+      enable = true;
+    };
+  };
 }
