@@ -4,6 +4,7 @@
     maple-mono.NF
     hanken-grotesk
     amiri
+    karla
   ];
 
   fonts.fontconfig = {
