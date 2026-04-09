@@ -4,6 +4,7 @@
     ./sops.nix
     ./hardware.nix
     ./boot.nix
+    ./networking.nix
     ./programs
   ];
 
