@@ -5,6 +5,10 @@
     hanken-grotesk
     amiri
     karla
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-cjk-serif
+    noto-fonts-color-emoji
   ];
 
   fonts.fontconfig = {
@@ -12,8 +16,14 @@
 
     defaultFonts = {
       monospace = [ "Maple Mono NF" ];
-      sansSerif = [ "Hanken Grotesk" ];
-      serif = [ "Amiri" ];
+      sansSerif = [
+        "Hanken Grotesk"
+        "Noto Sans"
+      ];
+      serif = [
+        "Amiri"
+        "Noto Serif"
+      ];
     };
   };
 }
