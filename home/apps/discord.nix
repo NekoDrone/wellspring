@@ -34,7 +34,6 @@
           autoUpdate = true;
           autoUpdateNotification = false;
           notifyAboutUpdates = false;
-          customTitleBar = true;
           enabledThemes = [ "${themeName}.css" ];
           plugins = {
             BetterGifPicker = {
