@@ -32,6 +32,12 @@ in
         hostname = "tangled.org";
         identityFile = secrets.key-ssh-tangled.path;
       };
+
+      "knot.gmstn.systems" = {
+        user = "git";
+        hostname = "knot.gmstn.systems";
+        identityFile = secrets.key-ssh-tangled.path;
+      };
     };
   };
 }
