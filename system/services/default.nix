@@ -8,6 +8,5 @@
 
   services = {
     ratbagd.enable = true;
-    qbittorrent.enable = true;
   };
 }

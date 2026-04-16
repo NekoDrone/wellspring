@@ -25,5 +25,6 @@
     wine
     winetricks
     libreoffice
+    qbittorrent
   ];
 }
