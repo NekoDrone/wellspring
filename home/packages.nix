@@ -24,5 +24,6 @@
     claude-code
     wine
     winetricks
+    libreoffice
   ];
 }
