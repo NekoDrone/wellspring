@@ -4,6 +4,7 @@
     ./ghostty.nix
     ./browser.nix
     ./lutris.nix
+    ./obs.nix
   ];
 
   programs = {
