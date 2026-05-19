@@ -5,6 +5,7 @@
     ./browser.nix
     ./lutris.nix
     ./obs.nix
+    ./prism-launcher.nix
   ];
 
   programs = {
