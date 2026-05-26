@@ -28,5 +28,7 @@
     qbittorrent
     modrinth-app
     ckan
+    pipewire
+    wireplumber
   ];
 }
