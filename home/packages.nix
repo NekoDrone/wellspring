@@ -30,5 +30,6 @@
     ckan
     pipewire
     wireplumber
+    xwayland-satellite
   ];
 }

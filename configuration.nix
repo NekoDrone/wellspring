@@ -15,6 +15,7 @@
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system
+    inputs.niri.nixosModules.niri
   ];
 
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -62,6 +63,10 @@
     shell = pkgs.zsh;
   };
 
+  programs.zsh = {
+    enable = true;
+  };
+
   # Allow unfree packages
   nixpkgs.config = {
     allowUnfree = true;
@@ -96,11 +101,19 @@
   #   };
   # };
 
+  programs.niri = {
+    enable = true;
+  };
+
   hardware.graphics.enable = true;
   services.xserver.videoDrivers = [
     "nvidia"
   ];
   hardware.nvidia.open = true;
+
+  xdg.portal = {
+    enable = true;
+  };
 
   # List services that you want to enable:
 
