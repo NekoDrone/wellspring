@@ -6,7 +6,7 @@
     kitty
     git
     sbctl
-    xorg.xrandr
+    xrandr
     age
     sops
     libsecret

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, ... }:
 
 {
   home.username = "serenity";
@@ -10,6 +10,7 @@
   programs = {
     firefox = {
       enable = true;
+      configPath = "${config.xdg.configHome}/mozilla/firefox";
     };
   };
 

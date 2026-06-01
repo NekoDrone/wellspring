@@ -1,6 +1,7 @@
-{ pkgs, ... }:
+{ pkgs, config, ... }:
 {
   gtk = {
+    gtk4.theme = config.gtk.theme;
     enable = true;
 
     theme = {
