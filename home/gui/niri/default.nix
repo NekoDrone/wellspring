@@ -18,6 +18,7 @@
         "Mod+Q".action = close-window;
         "Mod+Y".action = fullscreen-window;
         "Mod+Shift+Y".action.set-column-width = "75%";
+        "Mod+Shift+X".action.screenshot = { };
 
         ## Move
         "Mod+Shift+Left".action = move-window-to-monitor-left;
@@ -32,12 +33,12 @@
 
         ## Focus
         # windows — along the horizontal strip
-        "Mod+Left".action = focus-column-left;
-        "Mod+Right".action = focus-column-right;
+        "Mod+A".action = focus-column-left;
+        "Mod+D".action = focus-column-right;
 
         # monitors
-        "Mod+A".action = focus-monitor-left;
-        "Mod+D".action = focus-monitor-right;
+        "Mod+Left".action = focus-monitor-left;
+        "Mod+Right".action = focus-monitor-right;
 
         # workspaces — the vertical stack
         "Mod+W".action = focus-workspace-up;
@@ -79,7 +80,6 @@
             height = 1440;
             refresh = 180.002;
           };
-          variable-refresh-rate = true;
         };
         "HDMI-A-1" = {
           position = {
