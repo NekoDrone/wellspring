@@ -2,7 +2,7 @@
   imports = [
     # ./hyprland
     ./niri
-    ./hyprpanel.nix
+    # ./hyprpanel.nix
     ./vicinae.nix
   ];
 }
