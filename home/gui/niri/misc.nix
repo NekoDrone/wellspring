@@ -6,6 +6,10 @@
         backdrop-color = "#11111b";
         workspace-shadow.enable = false;
       };
+
+      hotkey-overlay = {
+        skip-at-startup = true;
+      };
     };
   };
 }

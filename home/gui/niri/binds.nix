@@ -39,6 +39,11 @@
         # workspaces — the vertical stack
         "Mod+W".action = focus-workspace-up;
         "Mod+S".action = focus-workspace-down;
+
+        # Misc
+
+        ## show keybind overlay
+        "Mod+Shift+Slash".action = show-hotkey-overlay;
       };
     };
   };
