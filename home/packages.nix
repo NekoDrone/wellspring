@@ -33,5 +33,6 @@
     xwayland-satellite
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
+    jq
   ];
 }
