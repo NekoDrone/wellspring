@@ -26,7 +26,11 @@
       };
       launcher_window = {
         opacity = 0.95;
-        rounding = 10;
+        layer_shell = {
+          enabled = true;
+          keyboard_interactivity = "exclusive";
+          layer = "overlay";
+        };
       };
     };
   };
