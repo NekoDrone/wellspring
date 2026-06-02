@@ -7,10 +7,12 @@
   imports = [
     ./autostart.nix
     ./binds.nix
-    ./monitors.nix
-    ./window_rules.nix
-    ./workspaces.nix
+    ./layers.nix
     ./layout.nix
+    ./misc.nix
+    ./monitors.nix
+    ./windows.nix
+    ./workspaces.nix
   ];
 
   programs.niri = {

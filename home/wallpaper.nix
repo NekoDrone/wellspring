@@ -26,6 +26,11 @@ let
       hash = "sha256-AMJQp2GbtK/0+9U0KXZeuDEGHkQiMeHEV131Gk9zpY8=";
       ext = "jpg";
     }
+    {
+      url = "https://raw.githubusercontent.com/dharmx/walls/refs/heads/main/anime/a_girl_standing_on_a_road_with_trees_and_mountains_in_the_background.jpg";
+      hash = "sha256-fgPX0/gq/lg3/3WSIDa90I31gdBV+l/a8D+9CPGj1fs=";
+      ext = "jpg";
+    }
     # {
     #   url = "https://raw.githubusercontent.com/dharmx/walls/main/animated/kessoku-band-in-the-train-bocchi-the-rock-moewalls-com.mp4";
     #   hash = "sha256-zl6JOxFBt0VGmnBQbR1mkbQOYtJOsam9tLmutXl4BEg=";

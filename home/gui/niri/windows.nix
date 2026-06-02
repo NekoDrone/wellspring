@@ -59,7 +59,6 @@
           ];
           open-on-workspace = "main_dp";
           open-focused = false;
-	  open-fullscreen = true;
         }
       ];
     };
