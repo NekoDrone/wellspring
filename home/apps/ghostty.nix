@@ -11,7 +11,7 @@
       font-family = "Maple Mono NF";
       adjust-cell-height = "25%";
       mouse-scroll-multiplier = "1";
-      background-opacity = "0.88";
+      background-opacity = "0.94";
       keybind = [
         "ctrl+left=esc:b"
         "ctrl+right=esc:f"

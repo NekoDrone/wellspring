@@ -7,6 +7,7 @@
   imports = [
     ./autostart.nix
     ./binds.nix
+    ./decorations.nix
     ./layers.nix
     ./layout.nix
     ./misc.nix

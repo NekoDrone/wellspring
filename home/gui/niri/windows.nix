@@ -60,6 +60,23 @@
           open-on-workspace = "main_dp";
           open-focused = false;
         }
+
+        # non-focused 75% opacity
+        {
+          matches = [ { is-focused = false; } ];
+          opacity = 0.95;
+        }
+
+        # ghostty 90% opacity when selected
+        {
+          matches = [
+            {
+              app-id = "^com\\.mitchellh\\.ghostty$";
+              is-focused = true;
+            }
+          ];
+          opacity = 0.98;
+        }
       ];
     };
   };
