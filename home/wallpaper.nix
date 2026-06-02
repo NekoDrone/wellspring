@@ -65,16 +65,6 @@ in
 
   home.packages = [ awww-random ];
 
-  # wayland.windowManager.hyprland = {
-  #   enable = true;
-  #   settings = {
-  #     exec-once = [
-  #       "awww-daemon"
-  #       "awww-random"
-  #     ];
-  #   };
-  # };
-
   systemd.user = {
     services.awww-randomize = {
       Unit = {
