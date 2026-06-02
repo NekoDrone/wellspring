@@ -40,6 +40,13 @@
         "Mod+W".action = focus-workspace-up;
         "Mod+S".action = focus-workspace-down;
 
+        # Tabs
+        "Mod+BracketLeft".action.consume-or-expel-window-left = [ ];
+        "Mod+BracketRight".action.consume-or-expel-window-right = [ ];
+
+        "Mod+Tab".action.focus-window-down-or-top = [ ];
+        "Mod+Shift+Tab".action.focus-window-up-or-bottom = [ ];
+
         # Misc
 
         ## show keybind overlay

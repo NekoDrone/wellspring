@@ -12,8 +12,7 @@
             in' = "oklch shorter hue";
           };
           inactive.color = "#1e1e2e";
-        }
-	;
+        };
         focus-ring = {
           enable = false;
           width = 10000;
@@ -23,10 +22,13 @@
         shadow.enable = true;
 
         tab-indicator = {
-          position = "top";
-          gaps-between-tabs = 10;
-          # hide-when-single-tab = true;
-          # place-within-column = true;
+          position = "left";
+          gap = 6;
+          width = 5;
+          gaps-between-tabs = 6;
+          hide-when-single-tab = true;
+          corner-radius = 8;
+          inactive.color = "#1e1e2e";
         };
       };
 

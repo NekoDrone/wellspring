@@ -7,6 +7,7 @@
         default-column-width = {
           proportion = 0.9;
         };
+        default-column-display = "tabbed";
       };
     };
   };
