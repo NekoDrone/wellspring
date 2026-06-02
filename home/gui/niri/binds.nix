@@ -10,8 +10,11 @@
         "Mod+Space".action = spawn "vicinae" "toggle";
         "Mod+Q".action = close-window;
         "Mod+Y".action = fullscreen-window;
-        "Mod+Shift+Y".action.set-column-width = "75%";
+        "Mod+Shift+Y".action.set-column-width = "90%";
+        "Mod+F".action = fullscreen-window;
+        "Mod+Shift+F".action.set-column-width = "90%";
         "Mod+Shift+X".action.screenshot = { };
+        "Mod+V".action = toggle-overview;
 
         ## Move
         "Mod+Shift+Left".action = move-window-to-monitor-left;

@@ -10,6 +10,7 @@
     ./monitors.nix
     ./window_rules.nix
     ./workspaces.nix
+    ./layout.nix
   ];
 
   programs.niri = {
