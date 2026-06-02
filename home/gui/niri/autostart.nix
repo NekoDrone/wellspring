@@ -2,6 +2,7 @@
   programs.niri = {
     settings = {
       spawn-at-startup = [
+        # Services
         {
           command = [
             "vicinae"
@@ -22,6 +23,22 @@
             "WAYLAND_DISPLAY"
             "XDG_CURRENT_DESKTOP"
             "NIX_XDG_DESKTOP_PORTAL_DIR"
+          ];
+        }
+
+        ## Applications
+        { command = [ "spotify" ]; }
+        { command = [ "zen-beta" ]; }
+        { command = [ "vesktop" ]; }
+        { command = [ "signal-desktop" ]; }
+        { command = [ "ghostty" ]; }
+        {
+          command = [
+            "niri"
+            "msg"
+            "action"
+            "focus-workspace"
+            "main_hdmi"
           ];
         }
       ];

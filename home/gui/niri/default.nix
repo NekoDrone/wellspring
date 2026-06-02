@@ -8,6 +8,8 @@
     ./autostart.nix
     ./binds.nix
     ./monitors.nix
+    ./window_rules.nix
+    ./workspaces.nix
   ];
 
   programs.niri = {
