@@ -18,6 +18,7 @@
 
   programs.niri = {
     settings = {
+      prefer-no-csd = true;
       xwayland-satellite = {
         enable = true;
         path = lib.getExe pkgs.xwayland-satellite;
