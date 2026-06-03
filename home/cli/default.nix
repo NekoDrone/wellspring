@@ -1,9 +1,10 @@
 {
   imports = [
+    ./direnv.nix
+    ./fetch.nix
     ./git.nix
-    ./zsh.nix
     ./spicetify.nix
     ./starship.nix
-    ./direnv.nix
+    ./zsh.nix
   ];
 }
