@@ -32,6 +32,7 @@
       bindkey '^[OA' history-search-backward	
       bindkey '^[OB' history-search-forward
       alias ls='eza'
+      alias nv='nix run github:NekoDrone/atelier'
       [[ $- == *i* ]] && hyfetch
     '';
   };
