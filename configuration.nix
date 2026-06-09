@@ -12,119 +12,10 @@
 
 {
   imports = [
-    # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./system
     inputs.niri.nixosModules.niri
   ];
-
-  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
-
-  # Enable networking
-
-  # Set your time zone.
-  time.timeZone = "Asia/Singapore";
-
-  # Select internationalisation properties.
-  i18n.defaultLocale = "en_GB.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_SG.UTF-8";
-    LC_IDENTIFICATION = "en_SG.UTF-8";
-    LC_MEASUREMENT = "en_SG.UTF-8";
-    LC_MONETARY = "en_SG.UTF-8";
-    LC_NAME = "en_SG.UTF-8";
-    LC_NUMERIC = "en_SG.UTF-8";
-    LC_PAPER = "en_SG.UTF-8";
-    LC_TELEPHONE = "en_SG.UTF-8";
-    LC_TIME = "en_SG.UTF-8";
-  };
-
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
-
-  # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.serenity = {
-    isNormalUser = true;
-    description = "Serenity";
-    extraGroups = [
-      "networkmanager"
-      "wheel"
-      "keys"
-    ];
-    packages = with pkgs; [ ];
-    shell = pkgs.zsh;
-  };
-
-  programs.zsh = {
-    enable = true;
-  };
-
-  # Allow unfree packages
-  nixpkgs.config = {
-    allowUnfree = true;
-    permittedInsecurePackages = [ "electron-39.8.10" ];
-  };
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # programs = {
-  #   hyprland = {
-  #     enable = true;
-  #     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-  #     portalPackage =
-  #       inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
-  #   };
-  #   zsh = {
-  #     enable = true;
-  #   };
-  # };
-
-  programs.niri = {
-    enable = true;
-  };
-
-  hardware.graphics.enable = true;
-  services.xserver.videoDrivers = [
-    "nvidia"
-  ];
-  hardware.nvidia.open = true;
-
-  xdg.portal = {
-    enable = true;
-  };
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
-
-  # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
-  # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
@@ -133,5 +24,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "25.05"; # Did you read the comment?
-
 }

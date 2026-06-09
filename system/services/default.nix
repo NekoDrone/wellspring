@@ -8,5 +8,9 @@
 
   services = {
     ratbagd.enable = true;
+    xserver.xkb = {
+      layout = "us";
+      variant = "";
+    };
   };
 }

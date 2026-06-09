@@ -5,4 +5,12 @@
     ./starship.nix
     ./appimage.nix
   ];
+
+  programs.zsh = {
+    enable = true;
+  };
+
+  programs.niri = {
+    enable = true;
+  };
 }
