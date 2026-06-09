@@ -50,6 +50,11 @@
       url = "github:imaviso/dwproton-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    silent-sddm = {
+      url = "github:uiriansan/SilentSDDM";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
