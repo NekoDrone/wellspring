@@ -34,5 +34,9 @@
     xdg-desktop-portal-gnome
     xdg-desktop-portal-gtk
     jq
+    kdePackages.qtsvg
+    kdePackages.qtimageformats
+    kdePackages.qtmultimedia
+    kdePackages.qt5compat
   ];
 }
