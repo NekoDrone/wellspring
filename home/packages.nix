@@ -38,5 +38,7 @@
     kdePackages.qtimageformats
     kdePackages.qtmultimedia
     kdePackages.qt5compat
+    oterm
+    aichat
   ];
 }

@@ -1,7 +1,8 @@
 {
   imports = [
     ./gpg.nix
-    ./ssh.nix
     ./keyring.nix
+    ./ollama.nix
+    ./ssh.nix
   ];
 }
