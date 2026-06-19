@@ -8,6 +8,7 @@
     ./autostart.nix
     ./binds.nix
     ./decorations.nix
+    ./input.nix
     ./layers.nix
     ./layout.nix
     ./misc.nix
