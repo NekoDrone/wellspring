@@ -38,6 +38,12 @@ in
         hostname = "knot.gmstn.systems";
         identityFile = secrets.key-ssh-tangled.path;
       };
+
+      "git.goldweaver.systems" = {
+        user = "forgejo";
+        hostname = "git.goldweaver.systems";
+        identityFile = secrets.key-ssh.path;
+      };
     };
   };
 }
