@@ -48,6 +48,9 @@
             WhoReacted = {
               enabled = true;
             };
+            VolumeBooster = {
+              enabled = true;
+            };
           };
         };
       };
