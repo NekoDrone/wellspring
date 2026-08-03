@@ -40,5 +40,6 @@
     kdePackages.qt5compat
     oterm
     aichat
+    kdePackages.partitionmanager
   ];
 }

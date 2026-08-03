@@ -10,5 +10,6 @@
     age
     sops
     libsecret
+    kdePackages.kpmcore
   ];
 }
