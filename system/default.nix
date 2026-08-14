@@ -10,6 +10,7 @@
     ./nix.nix
     ./nixpkgs.nix
     ./users.nix
+    ./drives.nix
     ./programs
   ];
 
