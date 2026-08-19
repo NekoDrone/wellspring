@@ -7,4 +7,13 @@
       "noatime"
     ];
   };
+
+  fileSystems."/mnt/armarium-ii" = {
+    device = "/dev/disk/by-uuid/58CE381BCE37F03C";
+    fsType = "ntfs3";
+    options = [
+      "rw"
+      "noatime"
+    ];
+  };
 }
