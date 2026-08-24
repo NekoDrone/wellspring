@@ -16,9 +16,8 @@
     heroic
     grimblast
     xivlauncher
-    bitwarden-desktop
-    bitwarden-cli
-    bitwarden-menu
+    _1password-gui
+    _1password-cli
     inkscape
     piper
     claude-code

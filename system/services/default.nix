@@ -12,5 +12,6 @@
       layout = "us";
       variant = "";
     };
+    blueman.enable = true;
   };
 }

@@ -9,6 +9,11 @@
       modesetting.enable = true;
       open = true;
     };
+
+    bluetooth = {
+      enable = true;
+      powerOnBoot = false;
+    };
   };
 
   services.xserver.videoDrivers = [
