@@ -5,8 +5,8 @@
     enable = true;
 
     theme = {
-      package = pkgs.flat-remix-gtk;
-      name = "Flat-Remix-GTK-Grey-Darkest";
+      package = pkgs.whitesur-gtk-theme;
+      name = "WhiteSur";
     };
 
     iconTheme = {
