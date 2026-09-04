@@ -1,6 +1,8 @@
 { pkgs, ... }:
 rec {
   home.pointerCursor = {
+    enable = true;
+
     name = "Bibata-Modern-Classic";
     size = 24;
 
