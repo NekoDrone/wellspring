@@ -26,6 +26,7 @@
     ./wallpaper.nix
     ./gtk.nix
     ./nixpkgs.nix
+    ./overlays
     ./xdg.nix
   ];
 }

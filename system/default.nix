@@ -9,6 +9,7 @@
     ./pkgs.nix
     ./nix.nix
     ./nixpkgs.nix
+    ./overlays
     ./users.nix
     ./drives.nix
     ./programs
