@@ -2,6 +2,7 @@
   imports = [
     ./appimage.nix
     ./misc.nix
+    ./noctalia.nix
     ./starship.nix
     ./steam.nix
   ];

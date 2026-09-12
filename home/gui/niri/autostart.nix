@@ -3,6 +3,7 @@
     settings = {
       spawn-at-startup = [
         # Services
+
         {
           command = [
             "vicinae"
@@ -23,6 +24,11 @@
             "WAYLAND_DISPLAY"
             "XDG_CURRENT_DESKTOP"
             "NIX_XDG_DESKTOP_PORTAL_DIR"
+          ];
+        }
+        {
+          command = [
+            "noctalia"
           ];
         }
 

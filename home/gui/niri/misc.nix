@@ -10,6 +10,10 @@
       hotkey-overlay = {
         skip-at-startup = true;
       };
+
+      debug = {
+        honor-xdg-activation-with-invalid-serial = [ ];
+      };
     };
   };
 }
