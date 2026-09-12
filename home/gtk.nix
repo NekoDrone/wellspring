@@ -1,13 +1,15 @@
 { pkgs, config, ... }:
 {
   gtk = {
-    gtk4.theme = config.gtk.theme;
     enable = true;
+    colorScheme = "dark";
 
     theme = {
       package = pkgs.whitesur-gtk-theme;
-      name = "WhiteSur";
+      name = "WhiteSur-Dark";
     };
+
+    gtk4.theme = config.gtk.theme;
 
     iconTheme = {
       package = pkgs.whitesur-icon-theme;
@@ -17,6 +19,14 @@
     font = {
       name = "Sans";
       size = 11;
+    };
+
+    gtk3.extraConfig = {
+      gtk-cursor-blink = false;
+    };
+
+    gtk4.extraConfig = {
+      gtk-cursor-blink = false;
     };
   };
 }
