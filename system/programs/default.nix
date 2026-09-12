@@ -1,9 +1,9 @@
 {
   imports = [
-    ./steam.nix
+    ./appimage.nix
     ./misc.nix
     ./starship.nix
-    ./appimage.nix
+    ./steam.nix
   ];
 
   programs.zsh = {
