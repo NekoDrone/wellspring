@@ -31,7 +31,7 @@
         {
           matches = [
             {
-              app-id = "^vesktop$";
+              app-id = "^signal$";
               at-startup = true;
             }
           ];
@@ -41,7 +41,7 @@
         {
           matches = [
             {
-              app-id = "^signal$";
+              app-id = "^vesktop$";
               at-startup = true;
             }
           ];
@@ -76,6 +76,38 @@
             }
           ];
           opacity = 0.98;
+        }
+
+        # vicinae launcher: runs as a regular floating window (not layer-shell)
+        # so it gets the window-open/close animations. See home/gui/vicinae.nix.
+        {
+          matches = [ { app-id = "vicinae"; } ];
+          open-floating = true;
+          open-focused = true;
+          border.enable = false;
+          focus-ring.enable = false;
+          clip-to-geometry = true;
+          geometry-corner-radius =
+            let
+              r = 14.0;
+            in
+            {
+              top-left = r;
+              top-right = r;
+              bottom-left = r;
+              bottom-right = r;
+            };
+          shadow = {
+            enable = true;
+            softness = 40;
+            spread = 6;
+            offset = {
+              x = 0;
+              y = 10;
+            };
+            color = "#00000099";
+          };
+          background-effect.blur = true;
         }
       ];
     };

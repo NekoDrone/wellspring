@@ -5,6 +5,7 @@
 }:
 {
   imports = [
+    ./animations.nix
     ./autostart.nix
     ./binds.nix
     ./decorations.nix

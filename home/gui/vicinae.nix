@@ -26,8 +26,10 @@
       };
       launcher_window = {
         opacity = 0.95;
+        rounding = 0;
+        client_side_decorations.enabled = false;
         layer_shell = {
-          enabled = true;
+          enabled = false;
           keyboard_interactivity = "exclusive";
           layer = "overlay";
         };

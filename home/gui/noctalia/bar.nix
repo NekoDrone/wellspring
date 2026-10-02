@@ -2,7 +2,7 @@ let
   mkBar =
     bar:
     {
-      background_opacity = 0.95;
+      background_opacity = 0.85;
 
       dead_zone.actions = {
         left = "exec vicinae toggle";
