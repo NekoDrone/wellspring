@@ -25,7 +25,6 @@
     winetricks
     libreoffice
     qbittorrent
-    modrinth-app
     ckan
     pipewire
     wireplumber
