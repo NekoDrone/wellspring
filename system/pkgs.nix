@@ -11,5 +11,6 @@
     sops
     libsecret
     kdePackages.kpmcore
+    godot-mono
   ];
 }
