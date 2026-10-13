@@ -6,6 +6,7 @@
     ./lutris.nix
     ./obs.nix
     ./prism-launcher.nix
+    ./vscode.nix
   ];
 
   programs = {
