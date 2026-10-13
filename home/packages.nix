@@ -1,12 +1,21 @@
 { inputs, pkgs, ... }:
 {
   home.packages = with pkgs; [
-    # (discord.override {
-    #   withMoonlight = true;
-    #   moonlight = inputs.moonlight.packages.${pkgs.system}.moonlight;
-    # })
+    # desktop stuff
     pavucontrol
     nwg-look
+    grimblast
+    pipewire
+    wireplumber
+    xdg-desktop-portal-gnome
+    xdg-desktop-portal-gtk
+    kdePackages.qtsvg
+    kdePackages.qtimageformats
+    kdePackages.qtmultimedia
+    kdePackages.qt5compat
+    kdePackages.partitionmanager
+
+    # apps
     signal-desktop
     cosmic-files
     vlc
@@ -14,30 +23,22 @@
     kdePackages.okular
     telegram-desktop
     heroic
-    grimblast
     xivlauncher
     _1password-gui
-    _1password-cli
     inkscape
     piper
-    claude-code
-    wine
-    winetricks
     libreoffice
     qbittorrent
-    ckan
-    pipewire
-    wireplumber
-    xwayland-satellite
-    xdg-desktop-portal-gnome
-    xdg-desktop-portal-gtk
+
+    # cli stuff
     jq
-    kdePackages.qtsvg
-    kdePackages.qtimageformats
-    kdePackages.qtmultimedia
-    kdePackages.qt5compat
-    oterm
-    aichat
-    kdePackages.partitionmanager
+    _1password-cli
+    claude-code
+
+    # gaming
+    wine
+    winetricks
+    ckan
+    xwayland-satellite
   ];
 }
