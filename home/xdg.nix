@@ -28,6 +28,7 @@
       enable = true;
 
       defaultApplications = {
+        "inode/directory" = "com.system76.CosmicFiles.desktop";
         "application/pdf" = "org.kde.okular.desktop";
         "x-scheme-handler/http" = "zen-beta.desktop";
         "x-scheme-handler/https" = "zen-beta.desktop";
