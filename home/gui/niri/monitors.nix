@@ -30,9 +30,11 @@ in
     settings = {
       outputs = {
         "DP-1" = displayPortMonitor;
-	"DP-4" = displayPortMonitor;
+        "DP-4" = displayPortMonitor;
+        "PNP(AOC) Q24G4 27ZQ9HA002859" = displayPortMonitor;
         "HDMI-A-1" = hdmiMonitor;
-	"HDMI-A-2" = hdmiMonitor;
+        "HDMI-A-2" = hdmiMonitor;
+        "Acer Technologies KG251Q T8ZSG0018532" = hdmiMonitor;
       };
     };
   };
